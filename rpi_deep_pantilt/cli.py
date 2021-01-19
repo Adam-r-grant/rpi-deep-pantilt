@@ -27,8 +27,7 @@ def validate_labels(labels):
             logging.error(f'''\
             Invalid label: {label} \n\
             Please choose any of the following labels: \n\
-            {SSDMobileNetLabels + FaceSSDLabels}\
-            ''')
+            {SSDMobileNetLabels + FaceSSDLabels}''')
             sys.exit(1)
 
 
