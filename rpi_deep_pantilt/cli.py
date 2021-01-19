@@ -24,10 +24,10 @@ from rpi_deep_pantilt.control.hardware_test import pantilt_test, camera_test
 def validate_labels(labels):
     for label in labels:
         if label not in (SSDMobileNetLabels + FaceSSDLabels):
-            logging.error(f'''
-            Invalid label: {label} \n
-            Please choose any of the following labels: \n
-            {SSDMobileNetLabels + FaceSSDLabels}
+            logging.error(f'''\
+            Invalid label: {label} \n\
+            Please choose any of the following labels: \n\
+            {SSDMobileNetLabels + FaceSSDLabels}\
             ''')
             sys.exit(1)
 
