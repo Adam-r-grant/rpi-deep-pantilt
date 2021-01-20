@@ -10,8 +10,8 @@ from PIL import Image
 import tensorflow as tf
 
 from rpi_deep_pantilt import __path__ as rpi_deep_pantilt_path
-from rpi_deep_pantilt.detect.util.label import create_category_index_from_labelmap
-from rpi_deep_pantilt.detect.util.visualization import visualize_boxes_and_labels_on_image_array
+from detect.util.label import create_category_index_from_labelmap
+from detect.util.visualization import visualize_boxes_and_labels_on_image_array
 
 LABELS = ['face']
 

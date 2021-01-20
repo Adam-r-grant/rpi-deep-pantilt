@@ -5,8 +5,8 @@ import pantilthat as pth
 import signal
 import sys
 
-from rpi_deep_pantilt.detect.camera import run_pantilt_detect
-from rpi_deep_pantilt.control.pid import PIDController
+from detect.camera import run_pantilt_detect
+from control.pid import PIDController
 
 logging.basicConfig()
 LOGLEVEL = logging.getLogger().getEffectiveLevel()
